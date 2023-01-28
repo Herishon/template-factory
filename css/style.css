@@ -1,0 +1,187 @@
+/* Name of creator: Herishon Sangma
+ * Email: herishon.febian@gmail.com
+ * Fiverr profile https://www.fiverr.com/herishon
+*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Pacifico&family=Righteous&family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Lato', sans-serif;
+}
+
+/*
+html{
+	scroll-behavior: smooth;
+}
+*/
+
+/* === Preloader ==== */
+.preloader {
+	height: 100vh;
+	width: 100vw;
+	overflow: hidden;
+	background: #333;
+	position: fixed;
+	z-index: 9999999;
+}
+.preloader .spin1 {
+	height: 50px;
+	width: 50px;
+	border: 5px solid #45474b;
+	border-top-color: #2FB6B1;
+	position: absolute;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	border-radius: 50%;
+	animation: spin1 1s infinite linear;
+}
+.preloader .spin2 {
+	height: 50px;
+	width: 50px;
+	border: 5px solid transparent;
+	border-bottom-color: rgba(47, 182, 177, 0.2);
+	position: absolute;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	border-radius: 50%;
+	animation: spin2 1.2s infinite linear;
+}
+@keyframes spin1 {
+	100% {
+		transform: rotate(360deg);
+	}
+}
+@keyframes spin2 {
+	100% {
+		transform: rotate(-360deg);
+	}
+}
+
+.navbar{
+	padding: 0rem 1rem !important;
+	box-shadow: 0px 3px 7px rgba(0,0,0,0.4);
+}
+.navbar-toggler {
+	padding: 0rem .3rem;
+}
+.nav-link{
+	font-size: 19px;
+	margin: 15px;
+	color: #fff !important;
+	font-family: 'Roboto Condensed', sans-serif;
+	transition: color .4s;
+}
+.nav-link:hover{
+	color: #F96300 !important;
+}
+.active .nav-link{
+	color: #F96300 !important;
+}
+
+/* === Site Content === */
+#site-banner{
+	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9)), url(../assets/pexels-josh-sorenson-1714208.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center center;
+}
+.site-heading{
+	font-size: 60px;
+	font-family: 'Righteous', cursive;
+	text-shadow: 0px 3px 5px rgba(0,0,0,0.3);
+	margin-top: 10%;
+	margin-bottom: 3%;
+}
+.site-title, .site-desc{
+	color: #fff;
+}
+.site-desc{
+	font-size: 20px;
+	padding: 0% 23%;
+	text-shadow: 0px 3px 5px rgba(0,0,0,0.3);
+}
+.site-btn1, .site-btn2{
+	margin-top: 5%;
+	margin-bottom: 10%;
+}
+
+/* === Unique Section === */
+.unique .heading-1, .unique .heading-2{
+	font-size: 42px;
+	color: #333;
+	font-weight: 600;
+}
+.unique .para-1{
+	font-size: 18px;
+	color: #333;
+	padding: 0% 16%;
+}
+/* === Like & Share Section === */
+.like-share .container-fluid{
+	background: url(../assets/like-banner.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+	padding: 15% 0%;
+}
+.like-share .container-fluid .back-dark{
+	background: rgba(52, 58, 64, 0.8);
+}
+.like-share .heading-1{
+	font-size: 42px;
+	font-weight: 600;
+}
+.like-share .para {
+	font-size: 18px;
+}
+.like-share .show-btn{
+	width: 130px !important;
+}
+ /* === Support === */
+ .support .container{
+	padding: 5% 0%;
+ }
+ .support .support-heading .support-h1{
+	font-size: 42px;
+	color: #333;
+	font-weight: 600;
+	margin-bottom: 8%;
+ }
+.fas{
+	color: #F96300;
+}
+
+/* === Join us === */
+.join-us{
+}
+.join-us .col-md-6,
+.join-us .col-md-5{
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+.join-us .join-us-heading{
+	font-size: 39px;
+	font-family: 'Lato', sans-serif;
+}
+.join-us .join-desc{
+	color: #E6E6E6;
+	font-size: 18px;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* === Footer === */
+#contact-us .social .fab{
+	font-size: 30px;
+	color: #F96300;
+}

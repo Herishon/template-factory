@@ -1,0 +1,41 @@
+/* Media Queries */
+@media only screen and (max-width: 575px){
+	.unique .row .col-md-4 .card {
+		margin-bottom: 35px;
+	}
+	.unique .row .card .card-body .card-title {
+		font-size: 26px;
+	}
+	.support .container{
+		padding: 8% 0%;
+	}
+	.join-us .col-md-6,
+	.join-us .col-md-5 {
+		margin-top: 5%;
+		margin-bottom: 5%;
+	}
+	.form-control {
+	width: 90%;
+	margin-top: 5%;
+	margin-bottom: 3%;
+	}
+	.contact-us .form-inline .submit {
+		display: block;
+		width: 20%;
+	}
+}
+@media only screen and (max-width: 767px){
+	.site-title{
+	font-size: 50px;
+	}
+	.site-desc{
+		padding: 0% 15%;
+	}
+	.like-share .like-share-cont{
+	width: 80% !important;
+	}
+}
+@media only screen and (max-width: 991px){}
+@media only screen and (max-width: 1199px){
+	
+}
